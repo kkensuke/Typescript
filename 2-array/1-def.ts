@@ -6,7 +6,7 @@ let l2: Array<number> = [1, 2, 3]; // same as l1
 console.log(l2);
 
 
-let l3 = []; // any
+let l3: any = [];
 l3[0] = 1;
 l3[1] = '2';
 l3[2] = 3;
